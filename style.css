@@ -118,20 +118,10 @@ section h3 {
     overflow: visible;
 }
 
-/* Footer */
-footer {
-    background: #ff7043;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-    font-weight: bold;
-}
-
 /* Section Float */
 #float {
     background: #fffaf0;
-    padding: 40px 20px;
+    padding: 20px;
     margin: 0 auto 20px auto;
     border-radius: 10px;
     max-width: 1000px;
@@ -145,29 +135,59 @@ footer {
     text-transform: uppercase;
 }
 
-.container {
-    width: 800px;       
-    margin: 0 auto;     
-    overflow: hidden;  
+/* Header */
+.header {
+    height: 100px;
+    background: #95bfe5;
+    /* biru muda */
+    border-top: 15px solid black;
 }
 
+/* Footer */
+.footer {
+    border-bottom: 15px solid black;
+    clear: both;
+}
+
+/* Container */
+.container {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Kolom */
 .kiri {
     width: 150px;
     height: 500px;
-    background-color: blueviolet;
+    background-color: #dcdcdc;
+    /* abu-abu */
     float: left;
 }
 
 .tengah {
     width: 500px;
     height: 500px;
-    background-color: brown;
+    background-color: #fff0cc;
+    /* kuning muda */
     float: left;
 }
 
 .kanan {
     width: 150px;
     height: 500px;
-    background-color: blueviolet;
+    background-color: #dcdcdc;
+    /* abu-abu */
     float: left;
+}
+
+
+/* Footer */
+footer {
+    background: #ff7043;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-weight: bold;
 }
