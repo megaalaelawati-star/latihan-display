@@ -1,0 +1,51 @@
+body {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+header,
+footer {
+    background: black;
+    height: 15px;
+}
+
+footer {
+    clear: both;
+    background: black;
+    height: 15px;
+}
+
+nav {
+    background: #95bfe5;
+    height: 100px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    padding: 5px;
+    overflow: auto;
+}
+
+.kiri {
+    width: 150px;
+    height: 500px;
+    background-color: #dcdcdc;
+    float: left;
+}
+
+.tengah {
+    width: 500px;
+    height: 500px;
+    background-color: #fff0cc;
+    float: left;
+}
+
+.kanan {
+    width: 150px;
+    height: 500px;
+    background-color: #dcdcdc;
+    float: left;
+}

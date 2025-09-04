@@ -118,69 +118,6 @@ section h3 {
     overflow: visible;
 }
 
-/* Section Float */
-#float {
-    background: #fffaf0;
-    padding: 20px;
-    margin: 0 auto 20px auto;
-    border-radius: 10px;
-    max-width: 1000px;
-    text-align: center;
-}
-
-#float h2 {
-    margin-bottom: 20px;
-    font-size: 2rem;
-    color: #ff7043;
-    text-transform: uppercase;
-}
-
-/* Header */
-.header {
-    height: 100px;
-    background: #95bfe5;
-    /* biru muda */
-    border-top: 15px solid black;
-}
-
-/* Footer */
-.footer {
-    border-bottom: 15px solid black;
-    clear: both;
-}
-
-/* Container */
-.container {
-    width: 800px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-/* Kolom */
-.kiri {
-    width: 150px;
-    height: 500px;
-    background-color: #dcdcdc;
-    /* abu-abu */
-    float: left;
-}
-
-.tengah {
-    width: 500px;
-    height: 500px;
-    background-color: #fff0cc;
-    /* kuning muda */
-    float: left;
-}
-
-.kanan {
-    width: 150px;
-    height: 500px;
-    background-color: #dcdcdc;
-    /* abu-abu */
-    float: left;
-}
-
 
 /* Footer */
 footer {
